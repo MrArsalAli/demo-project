@@ -1,0 +1,23 @@
+{
+  "name": "pos_backend",
+  "version": "1.0.0",
+  "description": "POS Backend",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arsalanali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.10"
+  }
+}
